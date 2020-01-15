@@ -1,0 +1,3 @@
+cars:
+ url: http://localhost:8081/rental/
+ title: RentalCars R Us at ${cars.url}

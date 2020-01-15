@@ -1,0 +1,4 @@
+Spring Boot Version ${spring-boot.version}
+Application Name ${spring.application.name}
+Application Title ${cars.title}
+Context Path ${server.port} ${server.servlet.context-path}
