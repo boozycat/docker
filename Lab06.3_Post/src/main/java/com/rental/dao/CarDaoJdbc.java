@@ -13,7 +13,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
 @Component 
-@Profile("prod")
+//@Profile("prod")
 public class CarDaoJdbc implements CarService {
 	
 	@Autowired private DataSource datasource;
