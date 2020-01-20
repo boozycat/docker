@@ -17,7 +17,7 @@ public class RentalCarApplication {
 		SpringApplication app = new SpringApplication(RentalCarApplication.class);
 		app.addInitializers(new ProfileInitializer());
 		app.run(args);
-        //add a comment
+        //add a comment here as it is important
 		String BASE_URL = "http://localhost:8081/";
 		RentalCar car = new RentalCar("ORD", "SUV", 99.99, "Ford", "Explorer");
 
